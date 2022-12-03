@@ -1,0 +1,79 @@
+footer{
+    padding-block: 4rem;
+    background-color: $light;
+    .container{
+        gap: 30px;
+        .registr{
+            border-radius: 16px;
+            gap: 20px;
+            width: 100%;
+            padding: 32px;
+            background-color: $blue;
+            color: $white;
+            margin: 0 auto;
+            h2{
+                font-size: 24px;
+                font-weight: 700;
+                flex: 1;
+            }
+            .reg{
+                flex: 2;
+                background-color: white;
+                padding: 12px;
+                border-radius: 14px;
+                .flex{
+                    width: 100%;
+                    gap: 12px;
+                    label{
+                        flex: 2;
+                        .email{
+                            width: 100%;
+                            padding: 14px 28px;
+                            font-size: 14px;
+                            border-radius: 8px;
+                            border: 1px solid #99A2A5;
+                        }
+                    }
+
+                    button{
+                        flex: 1;
+                        font-size: 16px;
+                        color: $white;
+                        background-color: $blue;
+                        padding: 14px 35px;
+                        border-radius: 8px;
+                        border: none;
+                        font-weight: 400;
+                        &:hover{
+                            opacity: 0.75;
+                        }
+
+                        &:active{
+                            opacity: 0.5;
+                        }
+                    }
+                }
+            }
+        }
+
+        .nav{
+            width: 100%;
+            margin: 0 auto;
+            border-bottom: 1px solid rgba(0, 52, 89, 0.3);
+            padding-block: 2rem;
+            ul{
+                gap: 60px;
+            }
+
+            .icons{
+                gap: 40px;
+            }
+        }
+
+        .bottom{
+            p{
+                color: gray;
+            }
+        }
+    }
+}
